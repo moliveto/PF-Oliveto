@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- <html lang="en" data-bs-theme="dark"> -->
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crow Funding RS</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+
+    <!-- EBootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="w-100 mb-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+            <div class="container-fluid">
+                <i class="bi bi-buildings" style="color: white;"></i>
+                <a class="navbar-brand" href="./index.html">Crow Funding RS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
+                    <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
+                </button>
+                <div class="offcanvas offcanvas-start bg-dark" data-bs-hideresize="true" tabindex="-1"
+                    id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLabel" style="color:white;">Crow Funding RS</h5>
+                        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg-dark">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="howwork.html">Cómo funciona</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="properties.html">Propiedades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Preguntas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-light bg-light" stype="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main">
+        <div class="row">
+            <section class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row mt-2">
+                    <div class="col fs-2 fw-bold">
+                        ¿ POR QUÉ INVERTIR EN EEUU ?
+                    </div>
+                </div>
+
+                <div class="row d-flex flex-wrap g-2 mt-2 mb-2">
+                    <div class="col-md-6 col-sm-2">
+                        <i class="fa-solid fa-circle-check" style="color: #4b80dd;"></i>
+                        <span class="fs-5">Seguridad jurídica</span>
+                    </div>
+                    <div class="col-md-6 col-sm-2">
+                        <i class="fa-solid fa-circle-check" style="color: #4b80dd;"></i>
+                        <span class="fs-5">Inversion en dolares</span>
+                    </div>
+                    <div class="col-md-6 col-sm-2">
+                        <i class="fa-solid fa-circle-check" style="color: #4b80dd;"></i>
+                        <span class="fs-5">Moneda fuerte</span>
+                    </div>
+                    <div class="col-md-6 col-sm-2">
+                        <i class="fa-solid fa-circle-check" style="color: #4b80dd;"></i>
+                        <span class="fs-5">Rentabilidad en dolares</span>
+                    </div>
+                    <div class="col-md-6 col-sm-2">
+                        <i class="fa-solid fa-circle-check" style="color: #4b80dd;"></i>
+                        <span class="fs-5">Sencillo</span>
+                    </div>
+                    <div class="col-md-6 col-sm-2">
+                        <i class="fa-solid fa-circle-check" style="color: #4b80dd;"></i>
+                        <span class="fs-5">Transparente</span>
+                    </div>
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col-6 w-100">
+                        <!-- Button trigger modal registro -->
+                        <button type="button" class="btn btn-primary btn-cta" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Regístrate para ver las propiedades disponibles
+                        </button>
+                        <!-- Modal resgistro -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Registro</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Debe enviar un email a registro@crowdfunding.com
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Registro</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="col-lg-6 col-md-6 col-sm-0 col-xs-0">
+                <img src="./assets/img/barrio-residencial.webp" class="img-fluid w-100 h-100 d-none-sm"
+                    alt="casa demostracion">
+            </aside>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-6">
+                <h2>¿Por qué invertir en inmuebles?</h2>
+                <p>
+                    A lo largo del tiempo, el sector inmobiliario ha sido una estrategia de inversión
+                    consistente, estable y rentable. Además, la inversión inmobiliaria ha superado a los
+                    mercados de acciones y bonos a largo plazo. Anteriormente, estas atractivas
+                    oportunidades de
+                    inversión solo estaban disponibles para inversores profesionales, personas de altos
+                    ingresos
+                    e inversores institucionales.
+
+                    Combinando tecnología de vanguardia con años de expertise en bienes raíces; nuestra
+                    plataforma de crowdfunding provee acceso a oportunidades de activos seguros elegidos
+                    para tí
+                    en el mundo.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2>¿Por qué invertir en crowdfunding inmobiliario?</h2>
+                <p>
+                    Si eres un inversor novato o experimentado, puedes invertir con en solo unos
+                    minutos, comenzando desde solo US$ 1,000. Los inversores financian colectivamente la
+                    compra
+                    de una propiedad y los ingresos se generan a partir de los ingresos por alquileres.
+                    Además,
+                    el valor de la propiedad puede aumentar durante el plazo de la inversión, que se
+                    distribuirá
+                    a los inversores tan pronto como se venda la propiedad.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-xs-12 col-md-4 col-lg-8">
+                    <nav class="navbar barra navbar-expand-lg">
+                        <div class="container justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="howwork.html">Cómo funciona</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="properties.html">Propiedades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="faq.html">Preguntas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- TODO: SEGUNDA COLUMNA - DERECHOS -->
+                <div class="col-xs-12 col-md-4 col-lg-2">
+                    <h6>Derechos Reservados</h6>
+                </div>
+
+                <!-- TODO: TERCERA COLUMNA - BARRA REDES SOCIALES -->
+                <div class="col-xs-12 col-md-4 col-lg-2 iconos">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- scripts -->
+</body>
+
+</html>
