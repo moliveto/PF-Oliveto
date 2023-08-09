@@ -38,6 +38,15 @@ header {
       background-repeat: no-repeat;
       background-size: 0% 2px;
       transition: background-size 0.3s; }
+  .navbar i {
+    padding-right: 0.5rem !important;
+    color: #a1297e; }
+  .navbar .navbar-brand {
+    color: #a1297e; }
+  .navbar .active {
+    color: #a1297e; }
+  .navbar .navbar-nav .nav-link.active {
+    color: #a1297e; }
 
 .navbar ul li a:hover,
 .navbar ul li a:focus {
@@ -125,3 +134,20 @@ footer {
 .barra ul li a:focus {
   background-size: 100% 2px;
   color: #fff; }
+
+.btn-clear-dark-bg {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; }
+
+.btn-clear-dark-bg:hover {
+  background-color: #ffffff;
+  color: #a1297e;
+  border: 1px solid #000000;
+  font-weight: bold;
+  /* Cambia el peso de la fuente al pasar el cursor */ }
+
+form h1 {
+  text-transform: uppercase; }

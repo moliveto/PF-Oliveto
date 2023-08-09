@@ -1,8 +1,14 @@
-$color-mode-type: data;
+.btn-clear-dark-bg {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-@include color-mode(dark) {
-  .element {
-    color: var(--bs-primary-text-emphasis);
-    background-color: var(--bs-primary-bg-subtle);
-  }
+.btn-clear-dark-bg:hover {
+  background-color: #ffffff;
+  color: $color-accent;
+  border: 1px solid #000000;
+  font-weight: bold; /* Cambia el peso de la fuente al pasar el cursor */
 }

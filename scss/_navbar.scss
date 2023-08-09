@@ -28,6 +28,25 @@
         }
       }
     }
+
+    i {
+      padding-right: 0.5rem!important;
+      color: $color-accent;
+    }
+
+    .navbar-brand {
+      color: $color-accent;
+    }
+
+    .active {
+      color: $color-accent;
+    }
+
+    .navbar-nav {
+      .nav-link.active{
+        color: $color-accent;
+      }
+    }
   }
   
   .navbar ul li a:hover,
