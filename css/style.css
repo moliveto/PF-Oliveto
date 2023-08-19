@@ -9295,13 +9295,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  color: #CCC5B9;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400; }
 
 header {
   width: 100%;
+  background-color: #808080;
   box-shadow: 1px 1px 10px 0 rgba(141, 125, 125, 0.897);
   align-items: center; }
 
@@ -9350,6 +9350,8 @@ main {
     font-size: 35px;
     font-weight: 650;
     line-height: 50px; }
+  main p {
+    margin-bottom: .5em; }
 
 .btn.btn-cta {
   border-radius: 100px;
