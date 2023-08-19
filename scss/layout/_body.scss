@@ -1,24 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  height: 100vh;
-}
-
 body {
   @extend html;
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  //color: $color-light-3;
+  color: $color-light-3;
   font-family: $normal-text-font;
   font-size: $normal-text-size;
   font-weight: $normal-text-weight;
-}
-
-a:link {
-  text-decoration: none;
 }

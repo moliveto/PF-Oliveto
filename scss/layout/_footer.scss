@@ -1,16 +1,12 @@
 footer {
   width: 100%;
-  /* height: 150px; */
   color: $color-letraprincipal;
   background-color: $color-footer;
   text-align: center;
-  // position: fixed;
-  // bottom: 0;
 }
 
-//  TODO: ICONOS DE REDES SOCIALES
 .iconos {
-  font-size: 2em;
+  font-size: 1em;
 
   a {
     color: $color-letraprincipal;

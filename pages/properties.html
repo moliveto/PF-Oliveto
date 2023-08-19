@@ -51,8 +51,7 @@
 </head>
 
 <body>
-    <div class="container d-flex w-100 h-100 ms-0 me-0 p-0 flex-column">
-
+    <div class="container-fluid d-flex w-100 h-100 ms-0 me-0 p-0 flex-column">
         <!-- Header -->
         <header class="w-100 mb-3">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark overflow-hidden" id="navbar">
@@ -100,7 +99,7 @@
         </header>
         <!-- Header -->
 
-        <main class="container">
+        <main class="container overflow-hidden">
             <div class="row text-center mg-b-50">
                 <h1>Propiedades para inversión</h1>
                 <p><a href="#">Iniciar sesión</a> or <a href="#">registrarse</a>
@@ -112,7 +111,8 @@
                     <div class="card mb-3 animate__animated animate__fadeIn" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="../assets/img/baltimore/pic1.jpg" class="d-block w-100" alt="baltimore">
+                                <img src="../assets/img/baltimore/pic1.jpg" class="d-block img-fluid w-100 h-100"
+                                    alt="baltimore">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-header">
@@ -146,7 +146,8 @@
                         style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="../assets/img/baltimore2/pic2.jpg" class="d-block w-100" alt="Second slide">
+                                <img src="../assets/img/baltimore2/pic2.jpg" class="d-block img-fluid w-100 h-100"
+                                    alt="Second slide">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-header">
@@ -269,7 +270,7 @@
         </main>
 
         <!-- footer -->
-        <footer class="mt-auto mt-3">
+        <footer class="sticky-footer mt-auto mt-2">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-xs-12 col-md-4 col-lg-8">
@@ -293,9 +294,8 @@
             </div>
         </footer>
         <!-- footer -->
-
     </div>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

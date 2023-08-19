@@ -1,10 +1,18 @@
-@import "custom";
-@import "variables";
-@import "reset";
-@import "header";
-@import "navbar";
-@import "main";
-@import "footer";
-@import "buttons";
-@import "forms";
-//@import "customcolors";
+// Base
+@import "./base/reset";
+
+// Theme
+@import "./theme/variables";
+@import "./theme/bootstrap-overrides";
+
+// Layout
+@import "./layout/html";
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/main";
+@import "./layout/footer";
+
+// Components
+@import "./components/buttons";
+@import "./components/forms";
