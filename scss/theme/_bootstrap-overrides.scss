@@ -3,3 +3,21 @@
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+@media (min-width: 768px) {
+  .container {
+    max-width: calc(100vw - 5px);
+    margin: 0 auto;
+  }
+}
+
+// @media (min-width: 768px) {
+//   .container {
+//     max-width: 100%;
+//     margin: 0;
+//     padding-left: 0;
+//     padding-right: 0;
+//     margin-left: 0;
+//     margin-right: 0;
+//   }
+// }
