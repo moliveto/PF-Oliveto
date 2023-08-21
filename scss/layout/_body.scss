@@ -3,6 +3,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+  overflow-x: hidden;
   
   //color: $color-light-3;
   font-family: $normal-text-font;

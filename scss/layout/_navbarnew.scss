@@ -8,21 +8,15 @@
 }
 
 .navbar {
-  width: 100%;
-  align-items: center;
   background-color: $color-fondoBarra;
   color: $color-letraprincipal;
-  transition: all 2s;
 
   ul {
     li {
-      display: inline-block;
       list-style: none;
-      padding: 5px 20px;
       transition: all 2s;
 
       a {
-        padding: 5px;
         color: $color-letraprincipal;
         @include subrayado;
       }
@@ -30,7 +24,6 @@
   }
 
   i {
-    padding-right: 0.5rem !important;
     color: $color-accent;
   }
 
