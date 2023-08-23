@@ -1,0 +1,29 @@
+.theme-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .theme-switcher i {
+    cursor: pointer;
+  }
+  
+  .theme-switcher i:hover {
+    color: #fff;
+  }
+  
+  .theme-switcher.theme-dark i.fas-moon {
+    color: #fff;
+  }
+  
+  .theme-switcher.theme-dark i.fas-sun {
+    color: #000;
+  }
+  
+  .theme-switcher.theme-light i.fas-moon {
+    color: #000;
+  }
+  
+  .theme-switcher.theme-light i.fas-sun {
+    color: #fff;
+  }
