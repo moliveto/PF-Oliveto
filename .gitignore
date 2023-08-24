@@ -1,3 +1,5 @@
 node_modules/
 pdf/
 bak/
+package-lock.json
+package.json
