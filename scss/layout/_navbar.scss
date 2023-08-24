@@ -9,7 +9,7 @@
 
 .navbar {
   background-color: $color-fondoBarra;
-  color: $color-letraprincipal;
+  color: $secondary-color;
 
   ul {
     li {
@@ -28,6 +28,8 @@
   }
 
   .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
     color: $color-accent;
   }
 

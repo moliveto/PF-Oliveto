@@ -9333,9 +9333,6 @@ textarea.form-control-lg {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif; }
 
-ul, ol {
-  list-style: none; }
-
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -9407,20 +9404,19 @@ body {
 
 header {
   width: 100%;
-  background-color: #808080;
   box-shadow: 1px 1px 10px 0 rgba(141, 125, 125, 0.897);
   align-items: center; }
 
 .navbar {
   background-color: #808080;
-  color: white; }
+  color: #6c757d; }
   .navbar ul li {
     list-style: none;
     transition: all 2s; }
     .navbar ul li a {
-      color: white;
+      color: #6c757d;
       text-decoration: none;
-      background-image: linear-gradient(white, white);
+      background-image: linear-gradient(#a1297e, #a1297e);
       background-position: 0% 100%;
       background-repeat: no-repeat;
       background-size: 0% 2px;
@@ -9428,6 +9424,8 @@ header {
   .navbar i {
     color: #a1297e; }
   .navbar .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
     color: #a1297e; }
   .navbar .active {
     color: #a1297e; }
@@ -9456,7 +9454,7 @@ main {
   box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.2);
   background: #a1297e;
   color: #fff;
-  font-size: 16px; }
+  font-size: 20px; }
 
 .btn {
   display: inline-block;
@@ -9474,9 +9472,9 @@ main {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 footer {
-  color: white;
-  background-color: #808080; }
+  color: #6c757d; }
   footer i {
-    font-size: 2em; }
+    font-size: 2em;
+    color: #a1297e; }
     footer i a:hover {
       background-size: 100% 2px; }

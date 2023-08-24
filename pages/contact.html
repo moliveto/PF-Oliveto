@@ -56,23 +56,21 @@
         <!-- Header -->
         <header class="w-100 mb-2">
             <!-- navbar -->
-            <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark" id="navbar">
+            <nav class="navbar bg-body-tertiary border-bottom border-body navbar-expand-lg" id="navbar">
                 <div class="container-fluid">
                     <i class="bi bi-buildings"></i>
                     <a class="navbar-brand ms-2" href="../index.html">Crow Funding RS</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbarExample-expand-lg"
-                        aria-controls="offcanvasNavbarExample-expand-lg">
-                        <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="offcanvas offcanvas-start bg-dark" data-bs-hideresize="true" tabindex="-1"
-                        id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasLabel" style="color:white;">Crow Funding RS</h5>
-                            <button type="button" class="btn-close btn-close-white text-reset"
-                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Crow Funding RS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body bg-dark">
+                        <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
                                     <a class="nav-link" href="../index.html">Home</a>
@@ -84,13 +82,13 @@
                                     <a class="nav-link" href="properties.html">Propiedades</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="about.html">Nosotros</a>
+                                    <a class="nav-link" href="about.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="faq.html">Preguntas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="contact.html">Contacto</a>
+                                    <a class="nav-link active" aria-current="page" href="contact.html">Contacto</a>
                                 </li>
                                 <li class="nav-item">
                                     <i class="fas fa-sun" id="btnSwitch"></i>
@@ -109,45 +107,45 @@
                 <div class="container-xl">
                     <div class="row justify-content-md-center">
                         <div class="col-md-8">
-                            <form class="row g-3 bg-dark text-white border-secondary mt-2 mb-2 rounded">
-                                <h1 class="text-center text-white">Formulario de contacto</h1>
+                            <form class="row g-3 border border-secondary mt-2 mb-2 rounded">
+                                <h1 class="text-center ">Formulario de contacto</h1>
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4" class="form-label text-white">Email</label>
+                                    <label for="inputEmail4" class="form-label ">Email</label>
                                     <input type="email" class="form-control" id="inputEmail4">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4" class="form-label text-white">Password</label>
+                                    <label for="inputPassword4" class="form-label ">Password</label>
                                     <input type="password" class="form-control" id="inputPassword4">
                                 </div>
                                 <div class="col-12">
-                                    <label for="inputAddress" class="form-label text-white">Address</label>
+                                    <label for="inputAddress" class="form-label ">Address</label>
                                     <input type="text" class="form-control" id="inputAddress"
                                         placeholder="1234 Main St">
                                 </div>
                                 <div class="form-group col-12">
-                                    <label for="inputAddress2" class="form-label text-white">Address 2</label>
+                                    <label for="inputAddress2" class="form-label ">Address 2</label>
                                     <input type="text" class="form-control" id="inputAddress2"
                                         placeholder="Apartment, studio, or floor">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputCity" class="form-label text-white">City</label>
+                                    <label for="inputCity" class="form-label ">City</label>
                                     <input type="text" class="form-control" id="inputCity">
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="inputState" class="form-label text-white">State</label>
+                                    <label for="inputState" class="form-label ">State</label>
                                     <select id="inputState" class="form-select">
                                         <option selected>Choose...</option>
                                         <option>...</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-2">
-                                    <label for="inputZip" class="form-label text-white">Zip</label>
+                                    <label for="inputZip" class="form-label ">Zip</label>
                                     <input type="text" class="form-control" id="inputZip">
                                 </div>
                                 <div class="form-group col-12">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label text-white" for="gridCheck">
+                                        <label class="form-check-label " for="gridCheck">
                                             Check me out
                                         </label>
                                     </div>
@@ -166,10 +164,10 @@
         <!-- footer -->
         <footer class="mt-auto">
             <div class="d-flex flex-row justify-content-end">
-                <div class="ms-1 me-1 p-1 align-self-center">
+                <div class="ms-1 me-1 align-self-center">
                     Derechos Reservados
                 </div>
-                <div class="ms-1 me-1 p-1">
+                <div class="ms-1 me-1">
                     <a href="#"><i class="bi bi-facebook"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
                     <a href="#"><i class="bi bi-twitter"></i></a>

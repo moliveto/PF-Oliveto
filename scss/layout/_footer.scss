@@ -2,7 +2,7 @@ footer {
   //width: 100%;
   //display: flex;
   color: $color-letraprincipal;
-  background-color: $color-footer;
+  //background-color: $color-footer;
   // align-items: center !important;
   // align-content: flex-end !important;
   // justify-content: flex-end !important; 
@@ -12,6 +12,7 @@ footer {
 
   i {
     font-size: 2em;
+    color: $primary-color;
     a {
       &:hover {
         background-size: 100% 2px;
