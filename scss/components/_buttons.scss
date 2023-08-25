@@ -12,3 +12,11 @@
   border: 1px solid #000000;
   font-weight: bold; /* Cambia el peso de la fuente al pasar el cursor */
 }
+
+.navbar div button {
+  background-color: $color-accent;
+}
+
+button > .navbar-toggler {
+  background-color: $color-accent;
+}

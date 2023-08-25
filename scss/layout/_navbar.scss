@@ -1,15 +1,23 @@
+// @mixin subrayado {
+//   text-decoration: none;
+//   background-image: linear-gradient($color-subrayado, $color-subrayado);
+//   background-position: 0% 100%;
+//   background-repeat: no-repeat;
+//   background-size: 0% 2px;
+//   transition: background-size 0.3s;
+// }
 @mixin subrayado {
-  text-decoration: none;
-  background-image: linear-gradient($color-subrayado, $color-subrayado);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size 0.3s;
+  border-bottom: 3px solid $color-accent; /* Borde inferior de color contrastante */
+  padding-bottom: 5px; /* Espaciado inferior */
 }
 
 .navbar {
-  background-color: $color-fondoBarra;
-  color: $secondary-color;
+  color: $color-inactive;
+  //background-color: $color-fondo;
+  
+  svg {
+    color: $color-accent;
+  }
 
   ul {
     li {
@@ -17,24 +25,20 @@
       transition: all 2s;
 
       a {
-        color: $color-letraprincipal;
+        color: $color-inactive;
+        //@include subrayado;
+      }
+      a:hover {
         @include subrayado;
       }
+
     }
-  }
-
-  i {
-    color: $color-accent;
-  }
-
-  .navbar-brand {
-    font-size: 20px;
-    font-weight: 400;
-    color: $color-accent;
   }
 
   .active {
     color: $color-accent;
+    border-bottom: 3px solid $color-inactive; /* Borde inferior de color contrastante */
+    padding-bottom: 5px; /* Espaciado inferior */
   }
 
   .navbar-nav {
@@ -42,6 +46,20 @@
       color: $color-accent;
     }
   }
+}
+
+.navbar-brand {
+  color: $color-accent;
+  font-size: 20px;
+  font-weight: 400;
+  // background: linear-gradient(to right, #ffcc00, #ff9900); /* Fondo con gradiente */
+  //border-radius: 5px;
+  padding: 10px 15px;
+  transition: transform 0.3s ease; /* Transición de animación */
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1); /* Escala ligeramente al pasar el cursor */
 }
 
 .navbar ul li a:hover,

@@ -10,3 +10,12 @@ body {
   font-size: $normal-text-size;
   font-weight: $normal-text-weight;
 }
+
+h1 {
+  color: $color-accent;
+  font-weight: 700 !important;
+}
+
+h2 {
+  color: $color-accent;
+}
